@@ -1,0 +1,61 @@
+body, html {
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.im1, .im2, .im3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.im1 {
+  background-image: url("https://scontent.fmnl2-1.fna.fbcdn.net/v/t1.15752-9/42382650_1782329888501722_8760355750389219328_n.jpg?_nc_cat=101&oh=707f7fa26c0b1dd49df1e6e0cbbc389c&oe=5C5C5B79");
+  background-size: cover;
+  min-height:100%;
+}
+
+.im2 {
+  background-image: url("https://scontent.fmnl2-1.fna.fbcdn.net/v/t1.15752-9/42607863_1128591447291097_4151526585293340672_n.jpg?_nc_cat=110&oh=bcd1ff7327fee39b032ede1ddb2f058f&oe=5C62FB70");
+  min-height:500px;
+}
+
+.im3 {
+  background-image: url("https://scontent.fmnl2-1.fna.fbcdn.net/v/t1.15752-9/42635983_2176446962566862_524035780193026048_n.jpg?_nc_cat=109&oh=d3a560bcfdea9a13a5f7cc64a703b3e4&oe=5C553EF0");
+  min-height:500px;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.light{
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align: center;
+  color: black;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
