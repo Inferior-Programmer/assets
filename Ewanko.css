@@ -1,0 +1,67 @@
+
+@media only screen and (max-width: 720px) {
+    * {
+    	box-sizing:border-box;
+    }
+    body {
+    	margin:0%;
+    	background-image:url('https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/s2048x2048/42761299_250719235646639_2410597587980648448_n.jpg?_nc_cat=106&oh=035c63cc10b77ecc8f79376cd7df76be&oe=5C5D71E7');
+    	background-size:250% 100%;
+    	height:auto;
+    	font-family:"lato";
+    	color:#666;
+	}
+	.title {
+		background-color:rgba(0,0,0,0.8);
+		width:100%;
+		height:70px;
+		position:absolute;
+		top:10px;
+		padding-left: 10px;
+	}
+
+	.header {
+		width:100%;
+		height:40px;
+		position:absolute;
+		top:90px;
+	}
+	.button {
+		background-color:rgba(0,0,0);
+		width:20%;
+		height:40px;
+		position:relative;
+		float:left;	
+	}
+	.pagetitle {
+		background-color:rgba(0,0,0,0.7);
+		width:79%;
+		height:40px;
+		position:relative;
+		float:right;
+		text-align:right;
+		padding-right:10px;	
+	}
+	.body1 {
+		background-color:rgba(0,0,0,0.7);
+		width:100%;
+		height:250px;
+		position:absolute;
+		top:140px;
+		text-align:center;
+	}
+	.body2 {
+		background-color:rgba(0,0,0,0.7);
+		width:100%;
+		height:500px;
+		position:absolute;
+		top:400px;
+		text-align:center;
+	}
+	.body2title {
+		background-color:rgba(0,0,0,0.8);
+		width:100%;
+		height:35px;
+		position:relative;
+		padding-top:5px;
+	}
